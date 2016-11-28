@@ -1,0 +1,7 @@
+import time
+x=1
+for x in range(x,2):
+    for y in df_cinema_dekodowany[df_cinema_dekodowany['kwantyle']==x].itertuples():
+        df_cinema_dekodowany.loc[y.Index,'gps']=len(y.postcode_city)
+        print(y.Index)
+        time.sleep(2)
